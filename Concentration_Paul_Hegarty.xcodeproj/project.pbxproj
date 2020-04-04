@@ -14,6 +14,8 @@
 		70961ECD2438225A007516D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70961ECC2438225A007516D3 /* Assets.xcassets */; };
 		70961ED02438225A007516D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70961ECE2438225A007516D3 /* LaunchScreen.storyboard */; };
 		70961EDC243835DE007516D3 /* RoundCornerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70961EDB243835DE007516D3 /* RoundCornerButton.swift */; };
+		70961EDE2438426C007516D3 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70961EDD2438426C007516D3 /* Card.swift */; };
+		70961EE02438427A007516D3 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70961EDF2438427A007516D3 /* Concentration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		70961ECF2438225A007516D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70961ED12438225A007516D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70961EDB243835DE007516D3 /* RoundCornerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCornerButton.swift; sourceTree = "<group>"; };
+		70961EDD2438426C007516D3 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		70961EDF2438427A007516D3 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 		70961EDA24383263007516D3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				70961EDD2438426C007516D3 /* Card.swift */,
+				70961EDF2438427A007516D3 /* Concentration.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -175,8 +181,10 @@
 			files = (
 				70961EC824382259007516D3 /* ViewController.swift in Sources */,
 				70961EC424382259007516D3 /* AppDelegate.swift in Sources */,
+				70961EDE2438426C007516D3 /* Card.swift in Sources */,
 				70961EC624382259007516D3 /* SceneDelegate.swift in Sources */,
 				70961EDC243835DE007516D3 /* RoundCornerButton.swift in Sources */,
+				70961EE02438427A007516D3 /* Concentration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
